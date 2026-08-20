@@ -1,13 +1,14 @@
 # Homebrew cask for Moosic. This file is a template: homebrew-publish.yml
-# stamps 0.1.10 and 76d1bbd63b83a57f97b904bc45577f0b3146737b9b54c3799025e63ff5e694c1 on every tag release and pushes the
+# stamps 0.1.11 and 3087d895a05d0ba026d83c240bb3dfc4029921e7578392e15ee0514751e46b8a on every tag release and pushes the
 # result to Casks/moosic.rb in the public tap andvision/homebrew-moosic.
 #
 # Users install with:
 #   brew tap andvision/moosic
+#   brew trust andvision/moosic     # one-time, Homebrew 6+
 #   brew install --cask moosic
 cask "moosic" do
-  version "0.1.10"
-  sha256 "76d1bbd63b83a57f97b904bc45577f0b3146737b9b54c3799025e63ff5e694c1"
+  version "0.1.11"
+  sha256 "3087d895a05d0ba026d83c240bb3dfc4029921e7578392e15ee0514751e46b8a"
 
   url "https://dl.moosic.now/v#{version}/moosic-v#{version}-macos.dmg"
   name "Moosic"
